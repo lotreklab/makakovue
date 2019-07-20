@@ -46,11 +46,7 @@ export default {
   name: "dynamic",
   props: ["pageToRender"],
   render: function(createElement) {
-    return createElement(
-      "span",
-      {},
-      renderSection(createElement, this.pageToRender.sections)
-    );
+    return renderSection(createElement, this.pageToRender.sections);
   }
 };
 </script>
