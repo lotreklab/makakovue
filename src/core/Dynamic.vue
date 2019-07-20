@@ -20,7 +20,14 @@ function getElementFromLayout(layout) {
 
 function sanitizeAttributes(attributes) {
   let copyAttributes = JSON.parse(JSON.stringify(attributes));
-  let newAttributes = {};
+  let newAttributes = {
+    'class' : copyAttributes.class,
+    'style' : copyAttributes.style,
+    'attrs' : copyAttributes.attrs
+  };
+  delete copyAttributes['class'];
+  delete copyAttributes['style'];
+  delete copyAttributes['attrs'];
   newAttributes.props = copyAttributes;
   return newAttributes;
 }

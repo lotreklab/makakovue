@@ -1,17 +1,17 @@
 const page = {
     sections: [{
-        id: 3,
+        id: 1,
         blockName: "Hero",
         acf_fc_layout: "Div",
         key: 5,
         children: [
             {
-                id: 4,
+                id: 2,
                 acf_fc_layout: "Title",
                 title: "Welcome to Makako Vue Clone 🙊"
             },
             {
-                id: 4,
+                id: 3,
                 acf_fc_layout: "Twitter",
                 user: "4stagi"
             },
@@ -20,12 +20,12 @@ const page = {
                 acf_fc_layout: "Div",
                 children: [
                     {
-                        id: 4,
+                        id: 5,
                         acf_fc_layout: "Title",
                         title: "This is a dangerous button inside a div 🐷"
                     },
                     {
-                        id: 4,
+                        id: 6,
                         acf_fc_layout: "ButtonCounter",
                         label: "Times you clicked:"
                     }
