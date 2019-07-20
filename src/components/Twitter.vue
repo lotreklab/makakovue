@@ -1,5 +1,5 @@
 <template>
-  <a :href="'https://twitter.com/' + user">🐦 Go to {{user}} Twitter profile</a>
+  <a :href="'https://twitter.com/' + user" target="_blank">🐦 Go to {{user}} Twitter profile</a>
 </template>
 
 <script>

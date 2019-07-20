@@ -1,10 +1,9 @@
-
-
 <script>
 //https://vuejs.org/v2/guide/render-function.html
 
 import StyledTitle from "../styled-components/StyledTitle";
 import StyledTwitter from "../styled-components/StyledTwitter";
+import StyledButtonCounter from "../styled-components/StyledButtonCounter"
 
 function getElementFromLayout(layout) {
   switch (layout) {
@@ -14,6 +13,8 @@ function getElementFromLayout(layout) {
       return StyledTitle;
     case "Twitter":
       return StyledTwitter;
+    case "ButtonCounter":
+      return StyledButtonCounter;
   }
 }
 
@@ -53,6 +54,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>

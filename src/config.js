@@ -4,24 +4,32 @@ const page = {
         blockName: "Hero",
         acf_fc_layout: "Div",
         key: 5,
-        children: [{
+        children: [
+            {
+                id: 4,
+                acf_fc_layout: "Title",
+                title: "Welcome to Makako Vue Clone 🙊"
+            },
+            {
                 id: 4,
                 acf_fc_layout: "Twitter",
                 user: "4stagi"
             },
             {
                 id: 4,
-                acf_fc_layout: "Title",
-                title: "This is my application 🤯"
-            },
-            {
-                id: 4,
                 acf_fc_layout: "Div",
-                children: [{
-                    id: 4,
-                    acf_fc_layout: "Title",
-                    title: "<This is a grandchild inside a div 🐷>"
-                }]
+                children: [
+                    {
+                        id: 4,
+                        acf_fc_layout: "Title",
+                        title: "This is a dangerous button inside a div 🐷"
+                    },
+                    {
+                        id: 4,
+                        acf_fc_layout: "ButtonCounter",
+                        label: "Times you clicked:"
+                    }
+                ]
             },
         ],
         class: "body"
