@@ -5,6 +5,6 @@
 <script>
 export default {
   name: "titlecomponent",
-  props: ['title']
+  props: { title: String }
 };
 </script>

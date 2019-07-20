@@ -5,6 +5,6 @@
 <script>
 export default {
   name: "twittercomponent",
-  props: ['user']
+  props: { user: String }
 };
 </script>

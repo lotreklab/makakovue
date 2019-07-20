@@ -20,7 +20,7 @@ const page = {
                 children: [{
                     id: 4,
                     acf_fc_layout: "Title",
-                    title: "This is a grandchild inside a div 🐷"
+                    title: "<This is a grandchild inside a div 🐷>"
                 }]
             },
         ],
