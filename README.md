@@ -1,6 +1,6 @@
 # makakovue
 
-> My best Nuxt.js project
+> 🙊 Experimental and opinionated Makako Vue clone
 
 ## Build Setup
 
