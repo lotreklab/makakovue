@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="container">
     <theme-provider :theme="theme">
       <dynamic :pageToRender="page"></dynamic>
     </theme-provider>
@@ -8,9 +8,9 @@
 
 <script>
 import { ThemeProvider } from "vue-styled-components";
-import theme from "./themes/seatheme";
-import Dynamic from "./core/Dynamic.vue";
-import page from "./config";
+import theme from "../themes/seatheme";
+import Dynamic from "../core/Dynamic.vue";
+import page from "../pagesconfig/index";
 
 export default {
   name: "app",
@@ -24,11 +24,11 @@ export default {
       page: page
     };
   }
-};
+}
 </script>
 
 <style>
-#app {
+.container {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,4 +36,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
